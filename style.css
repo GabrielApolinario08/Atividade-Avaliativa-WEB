@@ -1,0 +1,437 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --primaria-a: #e0752d;
+    --primaria-b: #db5011; 
+    --secundaria-a: #150f11;
+    --secundaria-b: #fff; 
+    --terciaria-a: #898ca9; 
+    --terciaria-b: #f7dd6a; 
+    --terciaria-c: #4c4c52; 
+}
+
+/* Menu */
+nav {
+    background-color: var(--secundaria-a);
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 3%;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primaria-b);
+}
+
+nav ul li a:hover {
+    color: var(--primaria-a);
+    transition: .2s;
+}
+
+/* Cabeçalho */
+header {
+    background-image: url(img/002.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header div {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+header div h1 {
+    color: var(--secundaria-a);
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px var(--terciaria-b), -1px -1px 1px var(--primaria-b);
+}
+
+header div h2 {
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px var(--primaria-b), -1px -1px 1px var(--terciaria-b);
+    font-size: 35px;
+}
+
+/* Jogos */
+.sec01 {
+    background-color: var(--secundaria-a);
+    padding: 20px 0;
+}
+
+.sec01-texto {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sec01-texto h1 {
+    color: var(--primaria-b);
+    font-weight: lighter;
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+.sec01-texto p {
+    color: var(--secundaria-b);
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.l-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.card {
+    width: 23%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    border: 1px solid red;
+    transition: .2s;
+}
+
+.card h2 {
+    color: var(--secundaria-b);
+    text-shadow: 1px 1px 1px var(--terciaria-c), 1px 1px 1px var(--terciaria-c);
+}
+
+.primeiro {
+    background-image: url(img/MK001.jpg);
+    
+}
+
+.segundo {
+    background-image: url(img/MK002.jpg);
+    
+}
+
+.terceiro {
+    background-image: url(img/MK003.jpg);
+    
+}
+
+.quarto {
+    background-image: url(img/MK004.jpg);
+    
+}
+
+.quinto {
+    background-image: url(img/MK005.jpg);
+    
+}
+
+.sexto {
+    background-image: url(img/MK006.jpg);
+    
+}
+
+.setimo {
+    background-image: url(img/MK007.jpg);
+    
+}
+
+.oitavo {
+    background-image: url(img/MK008.jpg);
+    
+}
+
+.nono {
+    background-image: url(img/MK009.jpg);
+    
+}
+
+.decimo {
+    background-image: url(img/MK010.jpg);
+    
+}
+
+.decimoPrimeiro {
+    background-image: url(img/MK011.jpg);
+    
+}
+
+.decimoSegundo {
+    background-image: url(img/MK012.jpg);
+    
+}
+
+/* Cards*/
+.sec02 {
+    background-color: var(--terciaria-b);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.sec02 h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.container02 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-final {
+    width: 24%;
+}
+
+.img {
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prim {
+    background-image: url(img/MK016.jpg);
+}
+
+.sec {
+    background-image: url(img/MK013.jpg);
+}
+
+.ter {
+    background-image: url(img/MK017.jpg);
+}
+
+.quar {
+    background-image: url(img/MK018.jpg);
+}
+
+.card-final p {
+    padding: 15px;
+    text-align: justify;
+    text-indent: 60px;
+}
+
+.botao {
+    padding: 10px 0;
+}
+
+.card-final a {
+    padding: 10px 15px;
+    background-color: black;
+    color: var(--secundaria-b);
+    border-radius: 6%;
+    text-decoration: none;
+}
+
+.card-final a:hover {
+    background-color: var(--secundaria-b);
+    color: black;
+    transition: .2s;
+}
+
+/* rodapé */
+footer {
+    background-color: var(--secundaria-a);
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    justify-content: end;
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: var(--secundaria-b);
+    text-decoration: none;
+}
+
+/* Responsividade para tablet */
+@media screen and (max-width:900px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    header {
+        background-image: url(img/001.gif);
+        background-position: center;
+        justify-content: center;
+    }
+
+    header div {
+        margin: 0;
+    }
+
+    .sec01-texto p {
+        font-size: 15px;
+    }
+
+    .quarto {
+        display: none;
+    }
+
+    .oitavo {
+        display: none;
+    }
+
+    .decimoSegundo {
+        display: none;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .apagavel {
+        display: none;
+    }
+
+    .card-final {
+        width: 30%;
+    }
+
+    .card-final p {
+        font-size: 15px;
+        padding: 15px 5px;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: end;
+    }
+
+    footer ul {
+        width: 80%;
+        margin: 0 auto;
+        justify-content: left;
+    }
+
+    footer ul li a {
+        font-size: 15px;
+    }
+}
+
+/* Responsividade para celular */
+@media screen and (max-width:600px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav img {
+        width: 10%;
+        padding: 7px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    header {
+        background-image: url(img/003.gif);
+    }
+
+    header div h1 {
+        font-size: 100px;
+    }
+
+    header div h2 {
+        font-size: 40px;
+    }
+
+    .sec01-texto {
+        text-align: center;
+    }
+
+    .sec01-texto h1 {
+        font-size: 60px;
+    }
+
+    .sec01-texto p {
+        text-align: justify;
+    }
+
+    .terceiro {
+        display: none;
+    }
+
+    .setimo {
+        display: none;
+    }
+
+    .nono {
+        display: none;
+    }
+
+    .decimo {
+        display: none;
+    }
+
+    .decimoPrimeiro {
+        display: none;
+    }
+
+    .card {
+        width: 47%;
+    }
+
+    .apagavel02 {
+        display: none;
+    }
+
+    .card-final {
+        width: 47%;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: left;
+    }
+
+    .botao a {
+        font-size: 15px;
+    }
+
+    footer ul {
+        justify-content: center;
+    }
+
+    footer ul li a {
+        font-size: 13px;
+    }
+}
